@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+body{
+    font-family: 'Fredoka', sans-serif;
+    margin: auto;
+    display: flex;
+    flex-grow: 1;
+}
+
+section{
+    margin: 0em 1.8em;
+    width: auto;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.rating{
+    margin-right: 2em;
+}
+
+#star{
+    color: #f89d13;
+}
+
+#heart{
+    color: #e9ecef;
+}
+
+#active{
+    color: #f3493e;
+}
+
+span{
+    color: #808080;
+}
+
+.clickable{
+    display: flex;
+    justify-content: center;
+}
+
+#value{
+    margin-left: 0.5em;
+}
+
+p{
+    text-align: center;
+    color: #808080;
+}
+
+button{
+    font-family: inherit;
+    padding: 0.5em 1.2em;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.cart{
+    margin-right: 1.2em;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+.view{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border-color: black;
+}
+
+.cart:hover{
+    background-color: rgba(78, 74, 74, 0.89);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+.view:hover{
+    background-color: rgb(112, 102, 102);
+    color: white;
+    transition: 1s;
+}
+
+
